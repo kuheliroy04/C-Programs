@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() 
+{
+    int a,b,sum,sub,mul,div;
+    printf("Enter any two integers: ");
+    scanf("%d%d", &a,&b);
+    sum = a+b;
+    sub = a-b;
+    mul = a*b;
+    div = a/b;
+    printf("Sum of the two integers= %d\n", sum);
+    printf("Sub of the two integers= %d\n", sub);
+    printf("Mul of the two integers= %d\n", mul);
+    printf("Div of the two integers= %d", div);
+    return 0;
+}
